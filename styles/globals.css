@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+html{
+scroll-behavior:smooth;
+font-family:  'Raleway', sans-serif;
+}
+body{
+   background-color: #eee;
+}
+ .custom-img{
+    background-image: url('../public/photographer.jpg');
+ }
+ .attia{
+   font-family: italic;
+ }
+
+
+  .custom-img{
+    background-image: url('../public/photographer.jpg');
+  }
+
+  h2 {
+    font-family: 'Dancing';
+   
+  }
+  
+.rotate-90 {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  max-width: 20%;
+  max-height: 60%;
+}
+
+
+
+
+
+@media (max-width: 400px) {
+  .rotate-90{
+    visibility: hidden
+  }
+  
+}
