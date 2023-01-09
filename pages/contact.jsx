@@ -15,13 +15,13 @@ const contact = () => {
       />
       <Contact />
       <a href="#">
-  <FontAwesomeIcon className="mx-4" style={{ fontSize: "24px", alignItems: "center" }} icon={faFacebook} />
+  <FontAwesomeIcon className="mx-4" style={{ fontSize: "1.5em", alignItems: "center" }} icon={faFacebook} />
 </a>
 <a href="#">
-  <FontAwesomeIcon className="mx-4" style={{ fontSize: "24px", alignitems: "center" }} icon={faInstagram} />
+  <FontAwesomeIcon className="mx-4" style={{ fontSize: "1.5em", alignitems: "center" }} icon={faInstagram} />
 </a>
 <a href="#">
-  <FontAwesomeIcon className="mx-4" style={{ fontSize: "24px", alignItems: "center" }} icon={faTwitter} />
+  <FontAwesomeIcon className="mx-4" style={{ fontSize: "1.5em", alignItems: "center" }} icon={faTwitter} />
 </a>
       <Footer />
     </div>
